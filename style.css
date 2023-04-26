@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;900&display=swap');
+body{margin:0; padding:0;font-size:16px;  background: #002947;overflow-x: hidden; color: var(--brandtext-primary);font-family: 'Archivo', sans-serif !important;}
+
+a{ color: var(--brandlink); text-decoration: none; cursor: pointer;}
+a:hover{ color: #5641df;text-decoration: underline;}
+
+:root {
+    --bs-light-gray-text: #f7f7fd;
+    --bs-dark-grayish-green: #024B5C;
+    --bs-light-grayish-blue: #ecedef;   
+    --bs-dark-blue: #1B2143;
+    --bs-dark-orange:#E47C29;
+    --bs-dark-light-green:rgba(2, 75, 92, 1);
+}
+.padding-top-30{padding-top:30px;}
+.head1{font-style: normal; font-weight: 600;font-size: 20px;line-height: 22px;color: #FFFFFF;}
+.organe-color{color:var(--bs-dark-orange);}
+.button-top{width: 86px;height: 23px;background:var(--bs-dark-grayish-green);border-radius: 4px;font-style: normal;font-weight: 400;font-size: 12px;line-height: 24px;text-align: center;color: #FFFFFF;}
+.team-head{font-style: normal;font-weight: 400;font-size: 12px;line-height: 13px;text-align: right;color: #FFFFFF;padding: 7px 0px 0px;}
+.team_curcle{width: 27px;height: 27px;left: 117px;top: 98px;background: #FFFFFF;border: 0.5px solid #D9D9D9;border-radius: 100%;text-align: center;}
+.or-text span {width: 17px;height: 17px;padding: 10px;border-radius: 100%;background:var(--bs-dark-grayish-green);border-radius: 101px;font-weight: 500;font-size: 8px;line-height: 9px;text-align: right;color: #FFFFFF;margin-top:6px;}
+.or-text {position: relative;text-align: center;}
+.or-text::before {content: "";position: absolute;background-color: var(--bs-dark-grayish-green);width: auto;width: 50%;height: 1px;z-index: 0;left:-10px;top:.88rem;}
+.or-text::after {content: "";position: absolute;background-color: var(--bs-dark-grayish-green);width: auto;width: 50%;height: 1px;z-index: 0;right: -10px;top:.88rem;}
+.player-section{width: 100%;height: 117px;background:var(--bs-dark-light-green);border: 1px solid var(--bs-dark-grayish-green);border-radius: 4px;}
+.player-box{width: 46px;height: 53px; background: #002947;border-radius: 5px;}
+.player-box img{border-radius: 5px;}
+.mt-16{margin-top:14px;}
+.play-box{min-width:64px;height: 23px;background:var(--bs-dark-grayish-green);border-radius: 4px;color: #FFFFFF;font-style: normal;font-weight: 400;font-size: 10px;line-height:14px;    margin-right: 12px;    padding: 0px 8px;}
+.play-box .zero{font-style: normal;font-weight: 700;font-size: 16px;line-height: 20px;}
+.team_head{font-style: normal;font-weight: 400;font-size: 12px;line-height:16px;align-items: center;padding-top: 5px;color: #FFFFFF;}
+.team_curcle2{width: 26px;height: 26px; background: #82ABFA;border: 1px solid #3D65B3;border-radius: 100%;font-style: normal;font-weight: 400;font-size: 12px;line-height: 13px;display: flex;align-items: center;text-align: center;justify-content: center;color: #FFFFFF;}
+.team_bg{background:url(../images/bg1.png) repeat, #2A711F;height:194px;background-size: cover;}
+.chose-text{font-style: normal;font-weight: 400;font-size: 12px;line-height: 14px;color: #FFFFFF;text-align: center;padding:12px 0px 0px;}
+.large-photo-bg{width: 104px;height: 139px;background: linear-gradient(180deg, #ffffff 100%, rgba(157, 108, 3, 0) 78.78%);border-radius: 6px;}
+.team_border{width: 18px;display: flex; justify-content: center;height: 12px;margin: 6px 10px 0px;background: #FFFFFF;border: 0.25px solid #D9D9D9;border-radius: 1px;}
+.team_border img{height: 10px; width: 10px;}
+.player-name{font-style: normal;font-weight: 400;font-size: 12px;line-height: 13px;text-transform: uppercase;color: #002947;}
+.font-weight-700{font-weight: 700;}
+.name_head{position: absolute;top:90px;padding:0px 10px 0px}
+.player-1 img {height: 120px;-webkit-mask-size: 300px 131px;-webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.00, rgba(0,0,0,0)), color-stop(1.00, rgba(0,0,0,1)));}
+.batsman-button{width: 55px;height: 13px;font-style: normal;font-weight: 400;font-size: 8px;line-height:12px;color: #FFFFFF;background: var(--bs-dark-grayish-green);border-radius: 14px;margin-top:4px}
+.curcle_bg{background:url(../images/curcle_bg.png) no-repeat;height:52px;width:52px;background-size: contain;margin-top:32px;}
+.second-number{font-style: normal;font-weight: 700;font-size: 24px;line-height: 26px;text-align: center;margin-bottom: 0px;color: #FFFFFF;}
+.second-text{font-style: normal;font-weight: 500;font-size: 6.4px;line-height: 7px;margin-bottom: 0px;color: #FFFFFF;}
+.footer-text{font-style: normal;font-weight: 500;font-size: 12px;line-height: 13px;text-align: center;color: #FFFFFF;opacity: 0.6;}
+.player-2 img {height: 127px;margin-top: 7px;}
+.img-demo{border:0px solid #00B1DB;border-radius: 6px;}
+.box-white{border: 1px solid #00B1DB;width: 40px;height: 47px;display: inline-grid;justify-content: center;margin-top: 3px;border-radius: 5px;padding: 14px 0px 0px;}
+.player-3 img {height: 54px;-webkit-mask-size: 300px 86px;-webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.00, rgba(0,0,0,0)), color-stop(1.00, rgba(0,0,0,1)));}
+.tag_logo {position: absolute;top: 36px;padding: 0px 5px 0px;}
+.team_border2 {width: 18px;display: flex;justify-content: center;height: 12px;margin-left:4px;background: #FFFFFF;border: 0.25px solid #D9D9D9;border-radius: 1px;}
+.green-bg{background: #20BEB5 !important;border: 1px solid #0D8780;}
+.blue-bg{background: #82ABFA !important;border: 1px solid #0D8780;}
+.small-text{font-style: normal;font-weight: 400;font-size: 12px;line-height: 14px;text-align: center;color: #FFFFFF;padding:88px 15%;}
+.button_text{font-style: normal;font-weight: 500;font-size: 16px;line-height: 17px;text-align: center;color: #FFFFFF;background: #E47C29 !important;border-radius: 4px;width: 173px;height: 40px;}
+.live_button{width: 56px;height: 23px;background: #FF4848;border-radius: 4px;font-style: normal;font-weight: 400;font-size: 12px;line-height: 13px;text-align: center;padding: 4px 0px;color: #FFFFFF;}
+.player-section2 {width: 100%;height:66px;background: var(--bs-dark-light-green);border: 1px solid #024B5C;border-radius: 4px;}
+.tag_bg{width: 102px;height: 36px;       background: #012C36;border-radius: 4px;font-style: normal;font-weight: 500;font-size: 16px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
+.line-height-22{position: relative;top:-3px;}
+.player-section3 {width: 100%;height: auto;}
+.pl-name{font-style: normal;font-weight: 500;font-size: 10px;line-height: 11px;display: flex;align-items: center;margin-bottom:4px;color: #FFFFFF;}
+.black_bg{width: 50px;height: 11px;  background: rgba(0, 0, 0, 0.5);border-radius: 14px;font-style: normal;font-weight: 400;font-size: 8px;line-height: 9px;color: #FFFFFF;}
+.number_text2{font-style: normal;font-weight: 700;font-size: 16px;line-height: 17px;align-items: center;text-align: center;color: #00B1DB;}
+.border-right-2{border-right:1px solid rgba(255, 255, 255, 0.15);}
+.padding-bottom-10{padding-bottom: 10px;}
